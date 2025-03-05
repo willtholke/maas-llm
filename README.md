@@ -1,6 +1,6 @@
 # maas-llm [WIP]
 
-MaaS for your LLM API calls. Exceed
+MaaS for your LLM API calls.
 
 ## What does this enable?
 
@@ -20,13 +20,14 @@ MaaS for your LLM API calls. Exceed
 - Integration with NVIDIA guardrails for enhanced content safety
 - Model distillation capabilities
 
+### Prioritized Features
+
+- Comprehensive API usage logging with detailed request/response tracking
+- Configurable Next.js 15 (React 18) + shadcn-ui + Tailwind CSS dashboard with features beyond OpenAI’s platform dashboard
+
 ### Deprioritized Features
 
-- Admin dashboard built with Next.js 15 + shadcn-ui + Tailwind CSS for:
-  - Detailed API usage visualization and analytics
-  - Request/response inspection and filtering
-  - API key management and usage monitoring
-  - Custom alert configurations
+- Everything else
 
 ## Requirements
 
