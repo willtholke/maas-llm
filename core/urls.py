@@ -16,10 +16,11 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import path
-from .views import healthcheck 
+from django.urls import path, include
+from .views import healthcheck
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("healthcheck/", healthcheck),
+    path("", include("openai_proxy.urls")),
 ]
