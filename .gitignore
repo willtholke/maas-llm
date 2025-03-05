@@ -1,0 +1,48 @@
+# sensitive data
+.env.local
+
+# random notes
+NOTES.md
+*.log
+*.out
+*.bak
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# db files
+db.sqlite3
+*.sqlite3
+*.db
+*.pdb
+
+# compiled files
+*.so
+*.dll
+*.dylib
+
+# django static and media files
+staticfiles/
+media/
+
+# pipenv and dependencies
+Pipfile.lock
+
+# coverage and testing
+.coverage
+htmlcov/
+*.cover
+*.pyc
+
+# other
+.DS_Store
